@@ -11,10 +11,10 @@ The pipeline processes **sales transaction data** for a B2B software company sel
 1. **Data Sources**: 3 CSV files (`customers.csv`, `orders.csv`, `order_items.csv`)
 2. **Processing**: Loads data into **in-memory SQLite** → runs SQL analytics → outputs CSV reports
 3. **Current Reports**:
-   - `revenue_per_customer_per_month.csv` - Revenue by customer/month (**TODO: currently only placeholder report**)
-   - `top_products.csv` - Top products by quantity (**TODO: currently only placeholder report**)
+   - `revenue_per_customer_per_month.csv` - Revenue by customer/month (**TODO: implement report. Currently only placeholder report**)
+   - `top_products.csv` - Top products by quantity (**TODO: implement report. Currently only placeholder report**)
 
-**Current Issues** (visible immediately in generated CSVs):
+**Current Issues**:
 - Revenue per client per month and Top product reports need to be implemented.
 - No data validation or error handling
 - Hardcoded paths, no CLI arguments
